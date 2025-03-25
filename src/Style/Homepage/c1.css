@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.s1{
+    background: url("../../../public/Images/bgimg1.jpg  "); 
+
+    height: 100vh;
+    background-size: cover;
+    
+    align-items: center;
+    background-attachment:scroll;
+}
+.showUpdiv{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto;
+    font-weight: 900;
+    
+    flex-direction: column;
+}
+.showUpdiv h1{
+    white-space: normal;
+    word-wrap: break-word;
+    line-height: 117.4%;
+}
+.name a {
+    font-family: inter;
+    font-weight: 800;
+    color: #2089E4;
+  
+}
+a{
+    text-decoration: none;
+}
+.exploremore{
+    background-color: #2089E4;
+    padding: 10px 13px;
+    border: none;
+    border-radius: 10px;
+}
+.exploremore a{
+    color: white;
+    font-family: inter;
+}
+@media screen and (max-width:768px) {
+   
+    .showUpdiv h1{
+        font-size: 37px;
+        width: 80%;
+        text-align: center;
+        margin-top: 130px;
+
+    }
+    .name a{
+        font-size: 24px;
+
+    }
+    .exploremore{
+        margin-top: 20px;
+        
+    }
+    .exploremore a{
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .showUpdiv h1{
+        font-size: 48px;
+        width: 80%;
+        line-height: 117.4%;
+        text-align: center;
+        margin-top: 130px;
+
+    }
+    .name a{
+        font-size: 48px;
+
+    }
+    .exploremore{
+        margin-top: 20px;
+    }
+    .exploremore a{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1440px) {
+    .showUpdiv h1{
+        font-size: 64px;
+        width: 80%;
+        line-height: 117.4%;
+        text-align: center;
+        margin-top: 130px;
+
+    }
+    .name a{
+        font-size: 62px;
+
+    }
+    .exploremore{
+        margin-top: 30px;
+    }
+    .exploremore a{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:1440px)  {
+    .showUpdiv h1{
+        font-size: 5.56vw;
+        width:88.26vw;
+        line-height: 117.4%;
+        text-align: center;
+        margin-top: 9.03vw;
+
+    }
+    .name a{
+        font-size: 3.23vw;
+
+    }
+    .exploremore{
+        margin-top: 2.08vw;
+    }
+    .exploremore a{
+        font-size: 1.67vw;
+    }
+}

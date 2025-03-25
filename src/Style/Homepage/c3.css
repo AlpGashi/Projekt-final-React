@@ -1,0 +1,196 @@
+.gray-div{
+    background-color: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+}
+.h1-s3{
+    color: #0A2D63;
+    font-family: Josefin Sans;
+    font-weight: 400;
+}
+.p-s3{
+    margin-top: 16px;
+    color: #8A8A8A;
+    font-family: Inter;
+    font-weight: normal;
+    white-space: normal;
+    word-wrap: break-word;
+}
+@media screen and (max-width:767px) {
+    .s3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 32px;
+        margin-top: 48px;
+    }
+    .h1-s3{
+        font-size: 24px;
+    }
+    .p-s3{
+        width:84% ;
+     margin-right: auto;
+     margin-left: auto;
+        font-size: 16px;
+        line-height: 22.4px;
+
+    }
+    .section-1,.section-2,.section-3{
+        display: flex;
+        flex-direction: column;
+     
+    }
+}
+@media screen and (max-width:375px) {
+    .gray-div{
+        width: 84%;
+        height: 196px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:425px) {
+    .section-1,.section-2,.section-3{
+        gap: 32px;
+    }
+    .gray-div{
+        width: 84%;
+        height: 196px;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width:425px) and (max-width:767px) {
+    .gray-div{
+        width: 70.76%;
+        max-width:450px;
+       height: 46vw;
+       max-height: 292.5px;
+       margin: 0 auto;
+    }
+    .section-1,.section-2,.section-3{
+        gap: 36px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .s3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 48px;
+        margin-top: 100px;
+    }
+    .section-1,.section-2,.section-3{
+        display: flex;
+        gap: 70px;
+        justify-content: center;
+        align-items: center;
+    }
+    .gray-div{
+        width: 284px;
+        height: 179px;
+    }
+    .p-s3{
+        width:315px ;
+        text-align: left;
+        margin-top: 16px;
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+    .h1-s3{
+        text-align: left;
+        font-size: 24px;
+    }
+   
+    
+   
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .gray-div-1{
+        order: 2;
+    }
+    .info-section2{
+        order: 1;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1440px) {
+    .gray-div{
+        width: 284px;
+        height: 179px;
+    }
+    .s3{
+      
+       max-width: auto;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: flex-start;
+       gap: 40px;
+       margin: 80px auto 0 auto;
+        /* display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto; */
+    }
+    .section-1{
+        margin-right: 60px;
+    }
+    .section-2{
+        margin-left: 60px;
+    }
+  
+    .p-s3{
+        width: 332px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 22.4px;
+        margin-top: 16px;
+    }
+    .h1-s3{
+        text-align: center;
+        font-size: 24px;
+    }
+    .section-1,.section-2,.section-3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+    
+}
+@media screen and (min-width:1440px)  {
+    .gray-div{
+        width: 23.06vw;
+        height: 15.42vw;
+    }
+    .s3{
+      
+        max-width: auto;
+        display: flex;
+     
+        justify-content: center;
+        align-items: first baseline;
+        gap: 3.47vw;
+        margin: 5.56vw auto 0 auto;
+        
+     }
+     .p-s3{
+        width: 23.06vw;
+        text-align: center;
+        font-size: 1.11vw;
+        line-height: 1.56vw;
+        margin-top: 1.11vw;
+    }
+    .h1-s3{
+        text-align: center;
+        font-size: 1.67vw;
+    }
+    .section-1,.section-2,.section-3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2.22vw;
+    }
+}
